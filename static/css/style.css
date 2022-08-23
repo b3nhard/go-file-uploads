@@ -1,0 +1,47 @@
+form{
+    background: rgb(245, 245, 245);
+    box-shadow: 0px 5px 15px 5px #dad7d7;
+    max-height: 200px;
+    max-width: 500px;
+    padding: 20px 60px;
+    border-radius: 5px;
+    overflow-x: clip;
+}
+.file-upload{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    background: crimson;
+    padding: 5px 15px;
+    color: white;
+    font-weight: 700;
+    font-family: "Lato Heavy";
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+}
+progress[value] {
+    color: #3c366b;
+    background-color: #3c366b;
+    padding: 10px;
+    height: 10px;
+}
+
+input::file-selector-button {
+    color: white;
+    background: teal;
+    font-weight: 700;
+    font-family: "Lato Heavy";
+    padding: 4px 8px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    margin: 5px auto;
+}
